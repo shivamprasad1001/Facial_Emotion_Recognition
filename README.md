@@ -9,10 +9,10 @@ The model detects emotions on various faces, as shown in the image below:
 
 ## Project Structure
 
-- **`model.py`**: Script for training and evaluating the model on the FER2013 dataset. Running this file generates a pre-trained model file, `facial_EmotionModel.h5`.
+- **`modelTrain.py`**: Script for training and evaluating the model on the FER2013 dataset. Running this file generates a pre-trained model file, `facial_EmotionModel.h5`.
 - **`realTimeRecognition.ipynb`**: Notebook for real-time emotion detection using a webcam or video stream.
 - **`ByImg.ipynb`**: Notebook for recognizing emotions from individual images.
-- **`facial_EmotionModel.h5`**: Pre-trained model generated after running `model.py`.
+- **`facial_EmotionModel.h5`**:  This file is generated after running **`modelTrain.py`**. Once generated, it can be used for emotion recognition in other scripts without needing to retrain the model.
 
 ## Dataset
 
