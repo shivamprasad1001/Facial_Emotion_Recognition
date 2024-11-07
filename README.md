@@ -1,10 +1,11 @@
-I can help you create a README file with this demo image displayed as a sample output. Here’s how it would look:
-
----
-
 # Facial Emotion Recognition with FER2013 and VGG16
 
 This project is a Convolutional Neural Network (CNN) model that detects emotions from facial images. Using the FER2013 dataset, the model classifies facial expressions into seven classes: **Angry**, **Disgust**, **Fear**, **Happy**, **Sad**, **Surprise**, and **Neutral**. The model is built with TensorFlow and leverages transfer learning with the pre-trained VGG16 architecture.
+## Sample Output
+
+The model detects emotions on various faces, as shown in the image below:
+
+![Sample Output](https://github.com/shivamprasad1001/humanEmotionsRecognition/blob/main/predictedImg.jpg)
 
 ## Project Structure
 
@@ -76,11 +77,6 @@ Trainable params: 66,567 (260.03 KB)
 Non-trainable params: 14,714,688 (56.13 MB)
 ```
 
-## Sample Output
-
-The model detects emotions on various faces, as shown in the image below:
-
-![Sample Output](./path/to/image.png)  <!-- Replace with the actual path to your demo image -->
 
 ## Monitoring Training
 
@@ -101,5 +97,3 @@ tensorboard --logdir=logs/fit
 Contributions are welcome! Please submit a pull request for any improvements.
 
 ---
-
-Replace `"./path/to/image.png"` with the actual path where you store the demo output image in your repository. This README will provide a comprehensive overview of the project with a visual sample output. Let me know if you need further customization!
