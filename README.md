@@ -93,3 +93,7 @@ tensorboard --logdir=logs/fit
 - **Improving Accuracy**: Experiment with different architectures like ResNet or EfficientNet if accuracy is insufficient.
 
 
+## Contributing
+
+Contributions are welcome! Please submit a pull request for any improvements.
+
