@@ -92,8 +92,4 @@ tensorboard --logdir=logs/fit
 - **Class Imbalance**: Adjust `class_weight` parameter to account for any imbalance in the dataset.
 - **Improving Accuracy**: Experiment with different architectures like ResNet or EfficientNet if accuracy is insufficient.
 
-## Contributing
 
-Contributions are welcome! Please submit a pull request for any improvements.
-
----
